@@ -1,0 +1,145 @@
+*{
+    font-family: minecraft;
+    font-size: xx-large;
+    display: flex;
+    position: center;
+    justify-content: center;
+    color: #FF7BAC; 
+}
+
+title{
+    display: none;
+}
+
+/*bron: Donna Stam*/
+head{
+    transform: translateY(50%);
+    position: absolute;
+    text-align: center;
+    top: 30px;
+}
+
+body{
+    background-image: url(../img/background-1\ 2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: pink;
+    
+}
+/*bron: Idelene Martis*/
+#frog{
+    width: 150px;
+    height: 150px;
+    transform: translateY(200%);
+    position: absolute;
+    text-align: center;
+}
+
+
+
+#cinnamon{
+    width: 100px;
+    height: 100px;
+    transform: translateY(620%);
+    position: absolute;
+    left: 400px;
+}
+
+#toilet{
+    width: 100px;
+    height: 100px;
+    transform: translateY(620%);
+    position: absolute;
+    text-align: center;
+}
+
+#bed{
+    width: 100px;
+    height: 100px;
+    transform: translateY(620%);
+    position: absolute;
+    right: 400px;
+}
+
+#hb1{
+    width: 500px;
+    height: 125px;
+    transform: translateY(100%);
+    position: absolute;
+    text-align: center;
+}
+
+#hb2{
+    display: none;
+    width: 300px;
+    height: 175px;
+    transform: translateY(50%);
+    position: absolute;
+    text-align: center;
+}
+
+#hb3{
+    display: none;
+    width: 500px;
+    height: 125px;
+    transform: translateY(100%);
+    position: absolute;
+    text-align: center;
+}
+
+#hb4{
+    display: none;
+    width: 500px;
+    height: 125px;
+    transform: translateY(100%);
+    position: absolute;
+    text-align: center;
+}
+
+
+
+progress{
+    width: 300px;
+    height: 100px;
+    margin-top: 150px;
+}
+
+
+img#princess{
+    display: none;
+    position: absolute;
+    transform: translateX(20%);
+}
+
+h1{
+    text-align: center;
+    transform: translateX(-20%);
+    display: none;
+}
+button{
+    align-items: center;
+    position: absolute;
+    transform: translateX(20%);
+}
+div#win{
+    display: none;
+    align-items: center;
+    position: absolute;
+    transform: translateX(20%);
+}
+
+img#gif{
+    align-items: center;
+    left: 800px;
+}
+
+
+button#loser{
+    width: 150px;
+    height: 75px;
+    -ms-text-size-adjust: auto;
+    display: none;
+    align-items: center;
+    position: absolute;
+    transform: translateY(650%);
+}
